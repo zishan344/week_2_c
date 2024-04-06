@@ -1,4 +1,6 @@
 #include <stdio.h>
+ 
+
 int main()
 {
   //problem 1
@@ -11,7 +13,7 @@ int main()
    }; */
 
    //problem 2
-   int a,b;
+ /*   int a,b;
    scanf("%d %d",&a,&b);
    if(a%b==0){
     printf("Multiples\n");
@@ -19,6 +21,15 @@ int main()
     printf("Multiples\n");
    }else{
     printf("No Multiples\n");
+   } */
+   //problem 3
+   char a;
+   scanf("%c",&a);
+   if(a >= 'A' && a<='Z'){
+    printf("%c",a+32);
+   }else{
+     printf("%c",a-32);
    }
+
   return 0;
 };
