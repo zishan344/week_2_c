@@ -45,7 +45,7 @@ int main()
     }
        */
   //problem 5
-   char a;
+ /*   char a;
    scanf("%c",&a);
    if(a>=48 && a<=57){
     printf("IS DIGIT");
@@ -54,6 +54,24 @@ int main()
    }else{
     printf("ALPHA\nIS SMALL");
 
-   };
+   }; */
+   //problem 5
+    int a,b,c;
+   scanf("%d %d %d",&a,&b,&c);
+   if(a<=b && a <=c){
+     printf("%d",a);
+   }else if(b<=c && b <=a){
+    printf("%d",b);
+   }else{
+    printf("%d",c);
+   }
+     
+  if(a>=b && a>=c){
+    printf(" %d",a);
+  }else if(b>=c && b>=a){
+    printf(" %d",b);
+  }else{
+    printf(" %d",c);
+  }
   return 0;
 };
