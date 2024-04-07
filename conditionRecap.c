@@ -23,13 +23,37 @@ int main()
     printf("No Multiples\n");
    } */
    //problem 3
-   char a;
+/*    char a;
    scanf("%c",&a);
    if(a >= 'A' && a<='Z'){
     printf("%c",a+32);
    }else{
      printf("%c",a-32);
-   }
+   } */
 
+//problem 4
+/* int number;
+   scanf("%d",&number);
+   
+    while(number >= 10) {
+        number /= 10;
+    }
+    if(number%2==0){
+      printf("EVEN");
+    }else{
+      printf("ODD");
+    }
+       */
+  //problem 5
+   char a;
+   scanf("%c",&a);
+   if(a>=48 && a<=57){
+    printf("IS DIGIT");
+   }else if(a>=65 && a<=90){
+    printf("ALPHA\nIS CAPITAL");
+   }else{
+    printf("ALPHA\nIS SMALL");
+
+   };
   return 0;
 };
